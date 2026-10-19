@@ -1,0 +1,9 @@
+Command:
+curl -i -c cookies.txt -H "Content-Type: application/json" -d "{\"username\":\"demo\",\"password\":\"password\"}" http://127.0.0.1:8000/djangoapp/login
+
+Response:
+HTTP/1.1 200 OK
+Set-Cookie: sessionid=<session-cookie>; expires=<expiry>; HttpOnly; Path=/; SameSite=Lax
+Content-Type: application/json
+
+{"userName":"demo","status":"Authenticated"}

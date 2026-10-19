@@ -1,0 +1,5 @@
+Command:
+curl http://127.0.0.1:8000/fetchDealers
+
+Response:
+{"dealerships":[{"id":15,"full_name":"Best Cars Kansas City","city":"Kansas City","state":"Kansas","address":"1200 Main Street","zip":"66101","st":"KS","lat":39.0997,"lng":-94.5786},{"id":16,"full_name":"Best Cars Chicago","city":"Chicago","state":"Illinois","address":"200 Michigan Avenue","zip":"60601","st":"IL","lat":41.8781,"lng":-87.6298}]}

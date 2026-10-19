@@ -1,0 +1,5 @@
+Command:
+curl http://127.0.0.1:8000/fetchDealer/15
+
+Response:
+{"id":15,"full_name":"Best Cars Kansas City","city":"Kansas City","state":"Kansas","address":"1200 Main Street","zip":"66101","st":"KS","lat":39.0997,"lng":-94.5786}

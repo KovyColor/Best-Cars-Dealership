@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.sqlite3
+.venv/
+venv/
+node_modules/
+dist/
+build/
+benchmark/
+benchmark_submission.zip

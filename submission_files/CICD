@@ -1,0 +1,4 @@
+GitHub Actions: Quality checks / python-lint - success
+flake8 server --max-line-length=120 - passed
+GitHub Actions: Quality checks / javascript-lint - success
+jshint server/frontend/src --extract auto - passed

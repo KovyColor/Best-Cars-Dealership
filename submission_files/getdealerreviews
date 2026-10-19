@@ -1,0 +1,5 @@
+Command:
+curl http://127.0.0.1:8000/fetchReviews/dealer/15
+
+Response:
+{"reviews":[{"id":1,"name":"Alex Morgan","review":"Fantastic services and a smooth purchase.","sentiment":"positive"}]}
